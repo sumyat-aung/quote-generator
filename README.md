@@ -33,5 +33,5 @@
 - **Responsive and look great on all devices**
 - **Generate quote, build with fetch API**
 - **Copy with one click**
-  = **Tweet the quote**
+- **Tweet the quote**
 - **speech feature**
