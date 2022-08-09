@@ -1,0 +1,83 @@
+body {
+  background-color: #371809;
+  color: #371809;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  margin-top: 180px;
+  background-color: #dac8aa;
+  width: 500px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#quote {
+  position: relative;
+  text-align: center;
+}
+
+#author {
+  text-align: end;
+  font-size: 20px;
+}
+
+.btnOFbox {
+  background-color: #dac8aa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnOFbox i {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #371809;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btnOFbox i:hover {
+  background-color: #371809;
+  color: #dac8aa;
+}
+
+.btnOFbox #btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #371809;
+  color: #a68575;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btnOFbox #btn:hover {
+  background-color: #723417;
+}
+
+@media screen and (max-width: 700px) {
+  .btnOFbox i,
+  .btnOFbox #btn {
+    cursor: default;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .box {
+    margin-top: 100px;
+    width: 370px;
+  }
+  .btnOFbox {
+    width: 370px;
+  }
+}
